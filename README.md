@@ -2,23 +2,16 @@
 
 [Fractal](https://fractal.build/) component library for future membership work
 
-Requirements: NodeJS 4.4.7+
+Requirements: NodeJS 8.5+
 
 ## Installation
 
 First, check out repository (https://github.com/coopdigital/future-membership.git) on your machine, and navigate to the repository root in a terminal window.
 
-Install the Fractal CLI helper globally
+Install node dependencies:
 
 ```sh
-$ npm i -g @frctl/fractal
-```
-
-Install node dependencies (`gulp-cli` needs to be installed globally):
-
-```sh
-$ npm install
-$ npm install -g gulp-cli
+$ npm ci
 ```
 
 ## Start local server
