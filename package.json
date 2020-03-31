@@ -4,9 +4,10 @@
   "scripts": {
     "fractal-build": "fractal build"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@frctl/fractal": "^1.2.1",
-    "coop-frontend-toolkit": "^2.0.2",
+    "coop-frontend-toolkit": "^2.1.4",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-sass": "^4.0.2"
