@@ -28,6 +28,8 @@ gulp.task('watch', () => Promise.all([
         ['scss/**/*.scss', 'scss/*.scss'],
         gulp.series('sass'),
     ),
+
+    // Add more watch tasks here…
 ]));
 
 /**
