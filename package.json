@@ -4,16 +4,12 @@
   "scripts": {
     "fractal-build": "fractal build"
   },
-  "dependencies": {
-    "@frctl/fractal": "^1.1.7",
-    "browser-sync": "^2.24.5",
-    "coop-frontend-toolkit": "^2.0.2",
-    "glob": "^5.0.10",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "1.0.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^2.0.0",
-    "gulpicon": "^1.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "@frctl/fractal": "^1.2.1",
+    "coop-frontend-toolkit": "^2.1.4",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.0.2"
   }
 }
