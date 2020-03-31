@@ -16,7 +16,7 @@ gulp.task('sass', () => gulp.src('scss/main.scss')
         console.log(err.messageFormatted);
         this.emit('end');
     })
-    .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+    .pipe(prefix({ cascade: true }))
     .pipe(gulp.dest('public/css')));
 
 /**
