@@ -6,7 +6,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@frctl/fractal": "^1.2.1",
+    "@frctl/fractal": "^1.5.15",
     "coop-frontend-toolkit": "^2.1.4",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
